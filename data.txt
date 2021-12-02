@@ -1,0 +1,100 @@
+Abdul Ghani,17/07/2000,laki-laki,007/007,lemah mekar,indramayu,islam,belum menikah,Pelajar/mahasiswa,089289120290
+Abiyyu Razin,28/08/2001,laki-laki,009/002,margadadi,indramayuz,islam,belum menikah,Pelajar/mahasiswa,081948423223
+Abraham,17/08/1990,laki-laki,011/009,cikedung,cikedung,kristen,menikah,buruh tani,082828298298
+Ade Alvi,25/09/2002,perempuan,003/004,lelea,lelea,islam,belum menikah,Pelajar/mahasiswa,083920832938
+Adham Nicola,19/09/2002,laki-laki,005/001,sindangkerta,lohbener,islam,belum menikah,Pelajar/mahasiswa,083420392033
+Ahmad Fauzi,7/6/2003,laki-laki,002/004,sukawera,kertasmaya,islam,belum menikah,Pelajar/mahasiswa,083741920928
+Alex Bhizer,1/4/1996,laki-laki,007/004,rambatan kulon,lohbener,hindu,belum menikah,karyawan,084082088080
+Ananta Nurfadhila,7/5/2003,perempuan,002/001,margadadi,indramayu,islam,belum menikah,Pelajar/mahasiswa,083920393893
+Anatasya Cantika,1/5/1990,perempuan,003/006,terusan,sindang,kristen,menikah,dokter,084784892084
+Anatasya Cristian,5/3/1990,perempuan,002/003,sukaurip,balongan,kristen,belum menikah,pegawai negeri sipil,083278392282
+Andika Prakasa,6/2/1991,laki-laki,005/004,sudimampir,balongan,kristen,belum menikah,buruh tani,084872992979
+Andino Lesmana,8/7/1989,laki-laki,009/003,legok,lohbener,hindu,menikah,pegawai negeri sipil,084788292939
+Angelia Felisa,9/5/2000,perempuan,001/005,pawidean,jatibarang,kristen,belum menikah,Pelajar/mahasiswa,084278462892
+Ariyanah,19/06/2003,perempuan,003/003,pekandangan,indramayu,islam,belum menikah,Pelajar/mahasiswa,083943943894
+Aulia Zahrani,5/4/1990,perempuan,005/003,majakerta,balongan,islam,menikah,karyawan,087489798749
+Ayu Lestari,12/1/1980,perempuan,012/002,dermayu,sindang,islam,menikah,wiraswasta,089022873287
+Bryen Gibran,9/6/1990,laki-laki,005/001,sukaurip,balongan,kristen,menikah,pegawai negeri sipil,083293928393
+Bunga Putri,16/04/2003,perempuan,012/002,sindangkerta,lohbener,islam,belum menikah,Pelajar/mahasiswa,083940389490
+Cahyani Ayuni,7/9/1990,perempuan,003/004,sukagumiwang,sukagumiwang,islam,belum menikah,guru,087489270933
+Cantika Sawala,6/9/1999,perempuan,003/001,pawidean,jatibarang,islam,belum menikah,guru,083874892704
+Chris John,9/8/1998,laki-laki,005/001,rambatan kulon,lohbener,kristen,belum menikah,karyawan,083718298399
+Christian Rendi,10/10/1990,laki-laki,012/003,sudimampir,balongan,kristen,belum menikah,buruh laut,083989820294
+Cindy Arwani,10/1/1987,perempuan,012/005,lelea,lelea,hindu,menikah,pegawai negeri sipil,083782782782
+Cintya Ayu,11/9/1990,perempuan,019/006,jangga,losarang,islam,belum menikah,dokter,082837829378
+Cristal  Angela,5/9/1996,perempuan,001/001,majakerta,balongan,kristen,menikah,karyawan,086472864188
+Danu Andika,12/12/1990,laki-laki,012/004,babadan,sindang,islam,belum menikah,buruh laut,089272891728
+Delia Putri,3/7/2002,perempuan,013/003,lemah mekar,indramayu,islam,belum menikah,Pelajar/mahasiswa,082483989043
+Della Gabriella,5/6/1989,perempuan,003/009,patrol baru,patrol,kristen,belum menikah,wiraswasta,087746826197
+Dinda Fauziaeni,13/02/2003,perempuan,011/001,margadadi,indramayu,islam,belum menikah,Pelajar/mahasiswa,087634534454
+Fadhad Wahyu,30/06/2003,laki-laki,002/003,pekandangan jaya,indramayu,islam,belum menikah,Pelajar/mahasiswa,083298329822
+Faktian Septian,10/9/1980,laki-laki,002/001,kertasmaya,kertasmaya,kristen,menikah,wiraswasta,081543458111
+Febri Angela,8/9/1999,perempuan,002/001,sudimampir,balongan,kristen,belum menikah,karyawan,083812698369
+Felisa ,12/8/1990,perempuan,005/002,sukawera,kertasmaya,kristen,menikah,karyawan,085932804893
+Fikri Zulfikri,9/11/1990,laki-laki,001/002,sukahaji,patrol,islam,belum menikah,buruh laut,084728979772
+Gabriella Castela,9/3/1999,perempuan,008/011,tegallurung,balongan,kristen,belum menikah,karyawan,089328942029
+Gibran Faktian,8/5/2004,laki-laki,022/002,lemahabang,indramayu,islam,belum menikah,Pelajar/mahasiswa,083734930138
+Greto Dwiyanka,17/01/2003,laki-laki,003/005,lohbener,lohbener,hindu,belum menikah,Pelajar/mahasiswa,082392839283
+Gustian Pradana,3/2/1999,laki-laki,007/003,tegalurung,balongan,kristen,belum menikah,polisi,086389282908
+Hadi Septian,8/9/1990,laki-laki,009/003,eretan kulon,kandanghaur,islam,menikah,wiraswasta,085231613033
+Halizah Kamil,20/07/2003,perempuan,002/009,gunungsari,sukagumiwang,islam,belum menikah,Pelajar/mahasiswa,082783198222
+I Gusti Agus,9/9/1999,laki-laki,005/002,sukareja,balongan,hindu,belum menikah,tentara,084927827989
+I Made Gunawan,11/1/1985,laki-laki,018/002,balongan,balongan,hindu,menikah,tentara,087829179172
+I Made Wirawan,4/9/1997,laki-laki,007/002,lelea,lelea,hindu,menikah,buruh nelayan,081202949489
+Ibnu Ubaidillah,12/7/2003,laki-laki,003/004,lelea,lelea,islam,belum menikah,Pelajar/mahasiswa,083998319285
+Irana Rahayu,2/9/1999,perempuan,019/002,krimun,losarang,islam,belum menikah,buruh jahit,089273829828
+Jaenal Arifin,13/09/2002,laki-laki,001/003,pekandangan,indramayu,islam,belum menikah,Pelajar/mahasiswa,083938928205
+Jennie Jane,8/9/1999,perempuan,002/004,rambatan kulon,lohbener,kristen,belum menikah,guru,086893048308
+Jessica Iskandar,9/9/1991,perempuan,002/004,ujungjaya,widasari,kristen,belum menikah,dokter,087478392332
+Jessica Jane,8/2/1997,perempuan,004/007,sukareja,balongan,kristen,belum menikah,karyawan,083236892796
+Jordan Chris,1/11/1998,laki-laki,003/001,margadadi,indramayu,kristen,menikah,karyawan,085102947922
+Juan Liardi,12/9/1990,laki-laki,015/004,cikedung,cikedung,kristen,belum menikah,polisi,082938298929
+Junaidi,11/9/1980,laki-laki,003/002,nunuk,lelea,islam,menikah,buruh tani,085900499489
+June Ibrahim,6/9/1999,laki-laki,011/003,bugel,patrol,kristen,belum menikah,wiraswasta,086803489393
+Justin Chris,12/6/1990,laki-laki,009/004,tugu ,lelea,kristen,menikah,polisi,089284993833
+Justine ,1/5/1989,perempuan,003/002,sudimampir lor,balongan,kristen,menikah,karyawan,089628398293
+Khoirul Anwar,13/10/2003,laki-laki,003/001,pawidean,jatibarang,islam,belum menikah,Pelajar/mahasiswa,089231890331
+Kholidiyah Amna,7/4/2003,perempuan,004/003,terusan,sindang,islam,belum menikah,Pelajar/mahasiswa,085938493841
+Kristian Lukman,2/5/1989,laki-laki,002/001,sindangkerta,lohbener,kristen,menikah,tentara,087492847918
+Lukman Lesmana,11/8/1995,laki-laki,008/004,terusan,sindang,hindu,belum menikah,wiraswasta,087762638927
+Lutfian Pranata,11/4/2003,laki-laki,012/002,lemah mekar,indramayu,islam,belum menikah,Pelajar/mahasiswa,083948029345
+Lutfiandi Budimansyah,9/12/2003,laki-laki,012/002,pekandangan,indramayu,islam,belum menikah,Pelajar/mahasiswa,082212318924
+Mamay Ayu,10/5/2003,perempuan,009/002,lohbener,lohbener,islam,belum menikah,Pelajar/mahasiswa,084928498223
+Maria Angela,5/4/1993,perempuan,004/005 ,sindangkerta,lohbener,kristen,menikah,pegawai negeri sipil,089074839749
+Matthew Putra,9/2/2000,laki-laki,006/005,sukaurip,balongan,kristen,belum menikah,karyawan ,083196391207
+Misselia Shombing,9/9/1990,perempuan,011/001,sukaurip,balongan,kristen,menikah,pegawai BUMN,082738429728
+Mohamad Yunus,8/4/1990,laki-laki,002/004,sudimampir,balongan,islam,menikah,karyawan,082989204829
+Muhammad Fauzy,8/8/2003,laki-laki,002/009,gunungsari,sukagumiwang,islam,belum menikah,Pelajar/mahasiswa,089327839729
+Nata Eka ,7/4/1990,laki-laki,007/002,sukareja,balongan,kristen,menikah,buruh tani,084992742972
+Niko Danuarto,7/8/2002,laki-laki,010/002,sindang,sindang,islam,belum menikah,Pelajar/mahasiswa,082928198129
+Nur Cahyani,4/3/1990,perempuan,002/003,jatisawit,jatibarang,islam,belum menikah,karyawan,087482977209
+Puteri Salwa,8/19/1999,perempuan,008/002,jambe,kertasmaya,islam,belum menikah,Pelajar/mahasiswa,089383989383
+Putra Siregar,8/6/1990,laki-laki,003/001,parean girang,kandanghaur,hindu,menikah,wiraswasta,082748719704
+Putri Julianti,9/7/1990,perempuan,008/001,leuwigede,widasari,islam,belum menikah,guru,089262762627
+Putri Lestari ,7/5/1999,perempuan,007/007,sukareja,balongan,islam,belum menikah,pegawai negeri sipil,087327862839
+Putri Rahayu,6/9/1990,perempuan,009/002,kasmaran,widasari,islam,belum menikah,guru,089473883738
+Rahayu Ayu,5/4/1992,perempuan,012/005,santing,losarang,islam,belum menikah,pegawai negeri sipil,082638298272
+Rahma Jayanti,9/4/1989,perempuan,004/003,pawidean,jatibarang,islam,menikah,pegawai negeri sipil,082928928923
+Randi Putra,9/10/1992,laki-laki,005/006,rambatan wetan,sindang,kristen,menikah,wiraswasta,089389389484
+Rezha Maulana,20/09/2003,laki-laki,002/001,sukagumiwang,sukagumiwang,islam,belum menikah,Pelajar/mahasiswa,083219830892
+Rianda Ghufran,19/05/2003,laki-laki,002/002 ,balongan,balongan,islam,belum menikah,Pelajar/mahasiswa,082992018083
+Rifqi Izzulhaq,8/10/2003,laki-laki,010/001,jatibarang,jatibarang,islam,belum menikah,Pelajar/mahasiswa,082072093892
+Rizky Pradana ,9/5/2004,laki-laki,009/001,lohbener,lohbener,islam,belum menikah,Pelajar/mahasiswa,081999298019
+Rizky Sulaeman ,9/1/2002,laki-laki,002/002,sindangkerta,lohbener,islam,belum menikah,Pelajar/mahasiswa,087239289832
+Rosalina,7/9/1985,perempuan,008/004,karanggetas,widasari,hindu,belum menikah,wiraswasta,087483938937
+Saipuloh,8/11/1991,laki-laki,002/008,patrol baru,patrol,islam,belum menikah,buruh peternak,082739719892
+Salsa Putri,11/9/1991,perempuan,002/002,wanasari,widasari,islam,belum menikah,guru,089238729822
+Salsabila Shafiya,29/10/2002,perempuan,011/004,lemah mekar,indramayu,islam,belum menikah,Pelajar/mahasiswa,082748299829
+Salwa Andini,6/5/1990,perempuan,009/005,bondan,sukagumiwang,islam,belum menikah,guru,089489383978
+Septian Nadi,12/5/1999,laki-laki,008/004,tugu ,lelea,hindu,belum menikah,polisi,083938298192
+Siti Rohmani,9/11/1980,perempuan,002/009,dermayu,sindang,islam,menikah,dokter,082927982983
+Sri Ningsih,1/9/1990,perempuan,002/001,parean girang,kandanghaur,islam,menikah,guru,085719074993
+Sri Putri,10/3/1990,perempuan,006/002,lohbener,lohbener,islam,menikah,dokter,087349180028
+Suwarto,1/12/1992,laki-laki,008/002,eretan wetan,kandanghaur,islam,menikah,buruh tani,087823719788
+Teddy Ronaldo ,30/12/2000,laki-laki,009/004,gunungsari,sukagumiwang,islam,belum menikah,Pelajar/mahasiswa,089612837928
+Trioani Putra,10/9/1985,laki-laki,006/003,karanggetas,widasari,islam,belum menikah,buruh tani,089289798282
+Vika Nurcahya,9/12/1995,perempuan,004/001,lemahmekar,indramayu,islam,belum menikah,pegawai negeri sipil,083192478082
+Vinah Fitriani,13/05/2001,perempuan,003/001,rambatan kulon,lohbener,kristen,belum menikah,Pelajar/mahasiswa,083928392922
+Wulan Nur,12/11/1994,perempuan,010/002,jatisawit,jatibarang,islam,menikah,dokter,089383387383
+Yohanes Fernades,17/9/1990,laki-laki,019/001,terusan,sindang,kristen,menikah,karyawan,084182648298
+Zahra Triwulan,2/2/1990,perempuan,011/004,nunuk,lelea,islam,belum menikah,buruh jahit,082938298992
