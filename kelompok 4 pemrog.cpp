@@ -32,11 +32,12 @@
 */
 
 
-
 #include <iostream>
+
 #include <fstream>
-#include <cstring>
+
 #include <iomanip>
+
 
 
 using namespace std;
@@ -51,17 +52,18 @@ void create(){
 	// membuka file txt tersebut jika tidak ada maka akan dibuatkan file baru
 	fout.open("reportcard.txt", ios::app);
 
-	cout << "Enter the details of 5 students:"
-		<< " roll name maths phy chem bio"<< endl;
+		cout <<"SILAHKAN MASUKAN DATA KEPENDUDUKAN"<< endl <<endl;
 
 	int i;
 //		-Nama,TanggalLahir,JenisKelamin,Rt/Rw,Kelurahan,Kecamatan,Agama,Status,Pekerjaan,NomorHp
 	string name,tanggalLahir,jenisKelamin,rtRw,kelurahan,kecamatan,agama,status,pekerjaan,nomorHp;
 
 	// Membaca inputan
-
+		
+		cin.ignore();
 		cout<<"Masukan Name \t : ";
-		cin>> name;
+		getline(cin, name);
+//		cin>> name;
 		cout<<"Masukan Tanggal Lahir \t : ";
 		cin>> tanggalLahir;
 		cout<<"Masukan Jenis Kelamin \t : ";
@@ -70,7 +72,9 @@ void create(){
 		cout<<"Masukan RT/RW \t : ";
 		cin>> rtRw;
 		cout<<"Masukan Kelurahan \t : ";
-		cin>> kelurahan;
+		
+		cin.ignore();
+		getline(cin, kelurahan);
 		cout<<"Masukan kecamatan \t : ";
 		cin>> kecamatan;
 		cout<<"Masukan agama \t : ";
@@ -95,7 +99,6 @@ void create(){
 			<< status << ","
 			<< pekerjaan << ","
 			<< nomorHp
-			
 			<< "\n";
 
 }
@@ -116,7 +119,6 @@ void readData(){
 		cout<<"| "<<setiosflags(ios::left)<<setw(20)<<"Nama"<<'\t'<<"|";
 		cout<<" "<<setiosflags(ios::left)<<setw(1)<<"Tanggal Lahir"<<'\t'<<"|";
 		cout<<" "<<setiosflags(ios::left)<<setw(9)<<"Jenis Kelamin"<<'\t'<<"|";
-		
 		cout<<" "<<setiosflags(ios::left)<<setw(12)<<"RT/RW"<<'\t'<<"|";
 		cout<<" "<<setiosflags(ios::left)<<setw(18)<<"Kelurahan"<<'\t'<<"|";
 		cout<<" "<<setiosflags(ios::left)<<setw(18)<<"Kecamatan"<<'\t'<<"|";
@@ -167,7 +169,7 @@ string searchDataByName(){
 	cout<<"Masukan Nama yang di cari: ";
 	cin >> namaInput;
 
-	
+// membuat variable untuk mebaca file txt
 	ifstream read("reportcard.txt");
 	if(!read.is_open()){
 		cout<<"file Tidak Ditemukan"<<endl;
@@ -175,7 +177,7 @@ string searchDataByName(){
 	}
 	string nama,tanggalLahir,jenisKelamin,rtRw,kelurahan,kecamatan,agama,status,pekerjaan,nomorHp;
 	cout<<endl;
-cout<<setw(12)<<"Nama"<<'\t';
+	cout<<setw(12)<<"Nama"<<'\t';
 	cout<<setw(12)<<"Tanggal Lahir"<<'\t';
 	cout<<setw(12)<<"Jenis Kelamin"<<'\t';
 	cout<<setw(12)<<"RT/RW"<<'\t';
@@ -188,7 +190,7 @@ cout<<setw(12)<<"Nama"<<'\t';
 	cout<<setw(12)<<"nomor"<<'\n';
 	cout<<"=========================================================================================================================================================================="<<endl;
 	
-	string str;
+
 	
 	while(read.peek() !=EOF){
 		getline(read, nama, ',');
@@ -202,6 +204,7 @@ cout<<setw(12)<<"Nama"<<'\t';
 		getline(read, pekerjaan, ',');
 		getline(read, nomorHp, '\n');
 		
+	
 		if(namaInput == nama){
 			cout<<setw(12)<<nama<<'\t';
 			cout<<setw(12)<<tanggalLahir<<'\t';
@@ -217,13 +220,19 @@ cout<<setw(12)<<"Nama"<<'\t';
 			break;
 		}
 		
+//		else{
+//			system("cls");
+//			cout<<"\nMohon Maaf Data Tidak Ditemukan di Database"<<endl;
+//			break;
+//		}
+		
 	}
 	return nama;
 	
 }
 
 
-// sebuah fungsion yang masih belum jadi
+// sebuah prosedur untuk menghapus data
 void * deleteData()
 {	
 	string nama,tanggalLahir,jenisKelamin,rtRw,kelurahan,kecamatan,agama,status,pekerjaan,nomorHp;
@@ -270,7 +279,6 @@ void * deleteData()
         tempFile.close();
         remove("reportcard.txt");
         rename("temp.txt", "reportcard.txt");
-        cout << "\n\tData deleted successfuly";
 
             
 }
@@ -280,11 +288,18 @@ void updateData()
 {
 	string nama,tanggalLahir,jenisKelamin,rtRw,kelurahan,kecamatan,agama,status,pekerjaan,nomorHp;
 	string searchnama = searchDataByName();
-	
+		
+		// membuat variable untuk menulis file txt
 		fstream tempFile;
+		
         tempFile.open("temp.txt", ios::out | ios::app);
         ifstream read;
+        // membuat variable untuk membaca file txt
         read.open("reportcard.txt");
+        
+        
+        // di bawah ini terdapat looping untuk memindahkan data yg ada di file lama ke file baru
+        // yang nantinya file baru telah terupdate dari data yang telah diubah
         
         while(read.peek() !=EOF) {
         	
@@ -300,17 +315,18 @@ void updateData()
 			getline(read, nomorHp, '\n');
 				
 				if(nama == searchnama){
+					cin.ignore();
 					cout<<"Masukan Name \t : ";
-					cin>> nama;
+					getline(cin, nama);
 					cout<<"Masukan Tanggal Lahir \t : ";
 					cin>> tanggalLahir;
 					cout<<"Masukan Jenis Kelamin \t : ";
 					cin>> jenisKelamin;
-					
 					cout<<"Masukan RT/RW \t : ";
 					cin>> rtRw;
 					cout<<"Masukan Kelurahan \t : ";
-					cin>> kelurahan;
+					cin.ignore();
+					getline(cin, kelurahan);
 					cout<<"Masukan kecamatan \t : ";
 					cin>> kecamatan;
 					cout<<"Masukan agama \t : ";
@@ -335,9 +351,7 @@ void updateData()
 							<< pekerjaan << ","
 							<< nomorHp
 							<< "\n";
-				}
-				
-				
+				}	
 		}
             
 
@@ -356,11 +370,15 @@ int main(){
 	
 	// terdapat laebel loop untuk melakukan perulangan agar programnya bisa berjalan terus menerus
 	loop:
-	cout<<"1. Create Data "<<endl;
-	cout<<"2. Read All DataBase"<<endl;
-	cout<<"3. Search Data By Name"<<endl;
-	cout<<"4. Delete"<<endl;
-	cout<<"masukan pilihan : ";
+		
+		
+	cout<<"1. Tambah Data Penduduk :"<<endl;
+	cout<<"2. Tampilkan semua Data Penduduk :" <<endl;
+	cout<<"3. Mencari Data berdasarkan Nama :"<<endl;
+	cout<<"4. Memperbarui Data :"<<endl;
+	cout<<"5. Menghapus Data :"<<endl;
+	cout<<"masukan pilihan 1-5 : ";
+	
 	cin>> option;
 	
 	
@@ -370,7 +388,9 @@ int main(){
 			
 			int masukanLagi = 1;
 			while(masukanLagi != 0){
+				system("cls");
 				create();
+				
 				cout<<"Apakah ingin input data penduduk lagi ? [0] Tidak  ||  [1] Ya : ";
 				cin>>masukanLagi;
 			}
@@ -383,6 +403,7 @@ int main(){
 			int masukanLagi =1;
 			
 			while(masukanLagi != 0){
+				system("cls");
 				readData();
 				cout<<"[0] untuk kembali ";
 				cin>>masukanLagi;
@@ -395,6 +416,7 @@ int main(){
 		case 3 :{
 			int masukanLagi = 1;
 			while(masukanLagi != 0){
+			system("cls");
 			searchDataByName();
 			cout<<"Apakah ingin mencari data penduduk lagi ? [0] Tidak  ||  [1] Ya : ";
 				cin>>masukanLagi;
@@ -405,10 +427,26 @@ int main(){
 
 			break;
 		}
-		case 4 :{
+		case 4 : {
+			int masukanLagi = 1;
+			while(masukanLagi != 0){
+			system("cls");
+			updateData();
+			
+			cout<<"Apakah ingin memperbarui data penduduk lagi ? [0] Tidak  ||  [1] Ya : ";
+				cin>>masukanLagi;
+			
+			}
+			system("cls");
+			goto loop;
+
+			break;
+		}
+		case 5 :{
 			
 			int masukanLagi = 1;
 			while(masukanLagi != 0){
+				system("cls");
 				deleteData();		
 				
 				cout<<"Apakah ingin menghapus data penduduk lagi ? [0] Tidak  ||  [1] Ya : ";
@@ -420,22 +458,13 @@ int main(){
 
 			break;
 		}
-		case 5 : {
-			int masukanLagi = 1;
-			while(masukanLagi != 0){
-			updateData();
-			
-			cout<<"Apakah ingin menghapus data penduduk lagi ? [0] Tidak  ||  [1] Ya : ";
-				cin>>masukanLagi;
-			
-			}
+		
+		default : {
 			system("cls");
 			goto loop;
-
 			break;
 		}
 	}
 	
 	return 0;
 }
-
